@@ -22,7 +22,7 @@ function runningTasks.getRunningTasks()
         qt = v
         print(v)
       elseif l == "pattern" then
-        for k, z in pairs(v) then
+        for k, z in pairs(v) do
           if k == "inputs" then
             for t, y in pairs(z) do
               if t ~= "n" then
