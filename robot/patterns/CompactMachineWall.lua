@@ -3,6 +3,8 @@ local robot = require("robot")
 local os = require("os")
 local invmgr = component.inventory_controller
 
+require("patterns/Builder")
+
 local reqItems = {{"minecraft:redstone", 1}, {"minecraft:iron_block", 1}, {"minecraft:redstone", 1}}
 
 cmw = {}
