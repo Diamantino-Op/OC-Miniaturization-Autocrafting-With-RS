@@ -65,7 +65,7 @@ while true do
       end
       
       if canMake == true then
-        sendBuildRequest(itm, tonumber(c))
+        sendBuildRequest(itm, tonumber(qnt))
       end
     end
   end
