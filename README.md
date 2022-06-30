@@ -4,7 +4,7 @@ The setup NEEDS to be exactly like this, or else it won't work
 The scripts need to be placed in the "/home/" folder of the respective block (computer and robot). Do not copy the scripts like "/home/computer" or "/home/robot" or else they won't work!
 
 Computer components:
-  Case (Tier 2)
+  Computer Case (Tier 2)
   Screen (Tier 2)
   Keyboard
   EEPROM (Lua BIOS)
@@ -19,6 +19,7 @@ Computer components:
   3x Cables
 
 Robot components:
+  Computer Case (Tier 2)
   Screen (Tier 1)
   Keyboard
   EEPROM (Lua BIOS)
