@@ -3,6 +3,8 @@ local robot = require("robot")
 local os = require("os")
 local invmgr = component.inventory_controller
 
+require("patterns/Builder")
+
 local reqItems = {{"minecraft:ender_pearl", 1}, {"compactmachines3:wallbreakable", 26}, {"minecraft:gold_block", 1}}
 
 ncm = {}
