@@ -15,7 +15,7 @@ function sendBuildRequest(item, qnt)
     for i = 1, math.floor((qnt / 16) + 0.4), 1 do
       isMaking = true
       m.broadcast(1, "cmw")
-      os.sleep(64)
+      os.sleep(50)
     end
     
     isMaking = false
@@ -23,7 +23,7 @@ function sendBuildRequest(item, qnt)
     for i = 1, qnt, 1 do
       isMaking = true
       m.broadcast(1, "ep")
-      os.sleep(75)
+      os.sleep(60)
     end
     
     isMaking = false
